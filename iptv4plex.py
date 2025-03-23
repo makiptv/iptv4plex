@@ -285,7 +285,7 @@ if not args.headless:
 			labelXml.grid(row=next_row+3, column=1)
 			#
 			userXml = tkinter.StringVar()
-			userXml.set("www.testurl.com/epg.xml")
+			userXml.set("https://plextv-b4ca92b14162.herokuapp.com/epg.xml")
 			self.xml = tkinter.Entry(frame, textvariable=userXml, width=30)
 			self.xml.grid(row=next_row+3, column=2)
 			#
